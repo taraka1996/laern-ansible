@@ -27,7 +27,7 @@
         msg: URL = {{ URL }}
 
 - name: Vars from Inventory
-  hosts: all
+  hosts: localhost
   tasks:
     - name: Print Play Variable from Inventory
       ansible.builtin.debug:
